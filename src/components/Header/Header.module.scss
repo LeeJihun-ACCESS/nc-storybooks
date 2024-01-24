@@ -1,0 +1,19 @@
+.header {
+    padding-left: 20%;
+    align-items: center;
+    display: flex;
+    background-color: var(--color-main);
+    color: white;
+    height: 50px;
+}
+
+.menuItem{
+    padding-left: 2%;
+}
+
+.icons {
+    position: absolute;
+    right: 0;
+    padding-right: 10%;
+    display: flex;
+}
