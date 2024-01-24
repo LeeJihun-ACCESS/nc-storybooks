@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.f21d8075.css","mappings":"AAAA","sources":["webpack://nc-storybook/./src/styles/variables.scss"],"sourcesContent":[":root {\n    --color-main: #266fbd;\n    --color-light-gray: #eee;\n}"],"names":[],"sourceRoot":""}
