@@ -1,0 +1,109 @@
+.titleWrapper {
+    display: flex;
+    justify-content: space-between;
+
+    .selectorDiv {
+        display: flex;
+        width: 20%;
+
+        .selector {
+            border: solid 1px var(--color-light-gray);
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    .exportButtonDiv {
+        display: flex;
+        padding-bottom: 1%;
+        width: 80%;
+        border-bottom: solid 1px var(--color-light-gray);
+
+        .exportButton {
+            margin-left: auto;
+            background-color: green;
+            color: white;
+            border-radius: 5px;
+        }
+    }
+}
+
+.batchWrapper {
+    margin-top: 2%;
+    border: solid 1px var(--color-light-gray);
+    border-radius: 5px;
+
+    label {
+        margin: 2%;
+    }
+}
+
+.individualWrapper {
+    margin-top: 2%;
+    border: solid 1px var(--color-light-gray);
+    border-radius: 5px;
+    
+
+    .labelDiv {
+        display: flex;
+        margin-left: 2%;
+        margin-top: 1%;
+    }
+
+    .essential {
+        border: solid 1px var(--color-light-gray);
+        border-radius: 5px;
+        background-color: red;
+        color: white;
+    }
+
+    .essentialContent {
+        margin-left: 2%;
+        margin-right: 2%;
+
+        input,select {
+            width: 100%;
+        }
+    }
+}
+
+
+.fileButtonDiv {
+    margin: 1%;
+    padding: 1%;
+    border: solid 1px var(--color-light-gray);
+    background-color: var(--color-light-gray);
+    border-radius: 5px;
+
+    .fileButton {
+        color: black;
+        background-color: var(--color-light-gray);
+        border: solid 1px black;
+    }
+}
+
+.buttonDiv {
+    background-color: rgba(231, 249, 255, 0.873);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    border-top: solid 1px var(--color-light-gray);
+    margin-top: 1%;
+    
+    .cancleButton {
+        background-color: white;
+        color: var(--color-main);
+        border-radius: 5px;
+        width: 30%;
+    }
+    
+    .okButton {
+        background-color: var(--color-main);
+        color: white;
+        border-radius: 5px;
+        width: 30%;
+    }
+}
