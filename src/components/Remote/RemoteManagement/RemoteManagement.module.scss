@@ -1,0 +1,51 @@
+.wrapper {
+    border: solid 1px var(--color-light-gray);
+    border-radius: 5px;
+}
+
+.title {
+    background-color: var(--color-light-gray);
+    padding: 1%;
+}
+
+.label {
+    width: 20%;
+    text-align: right;
+    padding-right: 2%;
+}
+.list {
+    border-bottom: solid 1px var(--color-light-gray);
+    padding: 1% 1% 1% 1%;
+    display: flex;
+}
+
+.dropdown {
+    width: 80%;
+}
+
+.inputBox{
+    flex: 1;
+}
+
+.buttonDiv {
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.okButton {
+    text-align: center;
+    background-color: var(--color-main);
+    color: white;
+    border-radius: 5px;
+    border: solid 1px var(--color-light-gray);
+}
+
+.resetButton,
+.searchDetail  {
+    text-align: center;
+    background-color: white;
+    color: var(--color-main);
+    border-radius: 5px;
+    border: solid 1px var(--color-light-gray);
+}

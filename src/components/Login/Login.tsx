@@ -7,10 +7,10 @@ const Login = () => {
         <div className={styles.wrapper}>
             <div className={styles.title}>ログイン</div>
             {error && (
-                <li className={styles.errorlist}><div className={styles.errorBox}>ユーザーIDまたはパスワードが正しくありません。</div></li>
+                <div className={styles.errorlist}><div className={styles.errorBox}>ユーザーIDまたはパスワードが正しくありません。</div></div>
             )}
-            <li className={styles.list}>ユーザーID　<input className={styles.inputBox} placeholder='ユーザーID'/></li>
-            <li className={styles.list}>パスワード　<input className={styles.inputBox} placeholder='パスワード'/></li>
+            <div className={styles.list}>ユーザーID　<input className={styles.inputBox} placeholder='ユーザーID'/></div>
+            <div className={styles.list}>パスワード　<input className={styles.inputBox} placeholder='パスワード'/></div>
             {error && (
                 <div className={styles.errorImageWrapper}>
                     <div>画面に表示されている文字列を入力してください。</div>
