@@ -1,0 +1,52 @@
+.wrapper {
+    margin: auto;
+    width: 70%;
+    border: solid 1px var(--color-light-gray);
+}
+
+.lists {
+    border-radius: 5px;
+    padding: 2%;
+
+    .list {
+        margin-bottom: 1%;
+    }
+
+    .topLineDiv {
+        border-top: solid 1px var(--color-light-gray);
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+}
+
+.whiteButton {
+    color: var(--color-main);
+    background-color: white;
+    margin-right: 1%;
+    border-radius: 5px;
+}
+
+.blueButton {
+    color: white;
+    background-color: var(--color-main);
+    border-radius: 5px;
+}
+
+.modifybuttonDiv {
+    background-color: var(--color-light-gray);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    .modifybutton {
+        color: var(--color-main);
+        background-color: white;
+        border-radius: 5px;
+    }
+    .deletebutton {
+        color: white;
+        background-color: red;
+        border-radius: 5px;
+    }
+}
