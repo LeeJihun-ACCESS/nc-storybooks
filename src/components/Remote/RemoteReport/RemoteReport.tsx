@@ -3,28 +3,6 @@ import styles from './RemoteReport.module.scss';
 const RemoteReport = () => {
     return (
         <div className={styles.wrapper}>
-            <div className={styles.info}>
-                <div className={styles.infoDataDivWrapper}>
-                    <div className={styles.infoDataDiv}>
-                        <label>リモコンシリアルNo:</label>
-                        <div>ssd</div>
-                    </div>
-                    <div className={styles.infoDataDiv}>
-                        <label>製品型番:</label>
-                        <div>製品型番</div>
-                    </div>
-                </div>
-                <div className={styles.infoDataDivWrapper}>
-                    <div className={styles.infoDataDiv}>
-                        <label>製品シリアルNo:</label>
-                        <div>製品シリアルNo</div>
-                    </div>
-                    <div className={styles.infoDataDiv}>
-                        <label>邸コード:</label>
-                        <div>邸コード</div>
-                    </div>
-                </div>
-            </div>
             <div className={styles.reportwrapper}>
                 <div className={styles.summaryDiv}>
                     <div className={styles.summary}>
