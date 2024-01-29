@@ -1,0 +1,66 @@
+.wrapper {
+    margin: auto;
+}
+
+.info {
+    border: solid 1px var(--color-light-gray);
+    margin-bottom: 2%;
+
+    .infoDataDivWrapper {
+        display: flex;
+
+        .infoDataDiv {
+            display: flex;
+            width: 50%;
+
+            label {
+                width: 50%;
+                margin-right: 16px;
+                text-align: right;
+            }
+        }
+    }
+}
+
+.editDiv {
+    border: solid 1px var(--color-light-gray);
+    border-radius: 5px;
+    width: 70%;
+    margin: auto;
+
+    .titleDiv {
+        background-color: var(--color-light-gray);
+    }
+
+    .mailDiv {
+        .mailTitle {
+            display: flex;
+
+            .essential {
+                border: solid 1px var(--color-light-gray);
+                border-radius: 5px;
+                background-color: red;
+                color: white;
+            }
+        }
+    }
+
+    .buttonDiv {
+        background-color: var(--color-light-gray);
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .modifybutton {
+            color: white;
+            background-color: var(--color-main);
+            border-radius: 5px;
+        }
+        .canclebutton {
+            color: var(--color-main);
+            background-color: white;
+            border-radius: 5px;
+        }
+    }
+}
