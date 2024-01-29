@@ -1,0 +1,73 @@
+.wrapper {
+    margin: auto;
+}
+
+.info {
+    border: solid 1px var(--color-light-gray);
+    border-radius: 5px;
+    margin-bottom: 2%;
+
+    .infoDataDivWrapper {
+        display: flex;
+
+        .infoDataDiv {
+            display: flex;
+            width: 50%;
+
+            label {
+                width: 50%;
+                margin-right: 16px;
+                text-align: right;
+            }
+        }
+    }
+}
+
+.reportwrapper {
+    display: flex;
+
+    .summaryDiv {
+        width: 10%;
+
+        .summary {
+            border: solid 1px var(--color-main);
+            border-radius: 5px;
+            margin-bottom: 20%;
+
+            .title {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: white;
+                background-color: var(--color-main);
+            }
+
+            .content {
+                display: flex;
+                height: 50px;
+                padding: 5%;
+                align-items: center;
+                justify-content: center;
+                color: var(--color-main);
+
+                .unit {
+                    color: black;
+                    margin-left: 5px;
+                }
+            }
+        }
+    }
+
+    .graphWrapper {
+        width: 90%;
+
+        .selectorDiv {
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .graphDiv {
+            background-color: gray;
+        }
+    }
+}
