@@ -1,0 +1,55 @@
+.wrapper {
+    margin: auto;
+    border: solid 1px var(--color-light-gray);
+    border-radius: 5px;
+    width: 70%;
+
+    .titleDiv {
+        background-color: var(--color-light-gray);
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+
+    .searchDiv {
+        .dateDiv {
+            display: flex;
+            padding-top: 1%;
+            padding-bottom: 1%;
+        }
+
+        .errorCodeDiv {
+            display: flex;
+            border-top: solid 1px var(--color-light-gray);
+            padding-top: 1%;
+            padding-bottom: 1%;
+        }
+
+        label {
+            width: 20%;
+            text-align: right;
+            padding-right: 2%;
+        }
+
+        .inputDiv {
+            display: flex;
+            width: 80%;
+
+            input {
+                width: 100%;
+            }
+        }
+    }
+
+    .buttonDiv {
+        background-color: var(--color-light-gray);
+        width: 100%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+
+        .modifybutton {
+            color: white;
+            background-color: var(--color-main);
+            border-radius: 5px;
+        }
+    }
+}

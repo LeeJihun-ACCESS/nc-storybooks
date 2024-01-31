@@ -1,0 +1,40 @@
+.wrapper {
+    margin: auto;
+    border-top: solid 1px var(--color-light-gray);
+    margin-top: 2%;
+    padding-top: 2%;
+}
+
+.buttonDiv {
+    display: flex;
+    justify-content: space-between;
+
+    .whiteButton {
+        color: var(--color-main);
+        background-color: white;
+        border-radius: 5px;
+    }
+
+    .csvButton {
+        color: white;
+        background-color: green;
+        border-radius: 5px;
+    }
+}
+
+.displayOption {
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+table {
+    margin-top: 2%;
+
+    tr {
+        &:nth-child(4n - 1),
+        &:nth-child(4n) {
+            background-color: var(--color-light-gray);
+        }
+    }
+}
